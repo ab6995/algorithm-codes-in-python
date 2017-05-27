@@ -39,9 +39,3 @@ def getRecord(s):
 
 result = getRecord(s)
 print (" ".join(map(str, result)))
-
-    if(gcd % lcm) == 0:
-        count += 1
-    lcm = lcm + lcm_copy
-
-print(count)
